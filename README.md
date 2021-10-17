@@ -4,7 +4,7 @@ A python script that reconciles a balance sheet account run from an accounting s
 
 Python BTC Reconciler: Readme
 
-######Introduction
+###### Introduction
 
 This script attempts to reduce the amount manual work required to identify and remove the offsetting transactions in a report for a balance sheet account that one has run from an accounting software. The program is limited to seeking and identifying exact matches. To illustrate:
 	
@@ -22,7 +22,7 @@ In this example, the program will be able to remove the 80 and (80), as they mat
 
 That being said, in the Excel file with which testing was performed, a real world example, the computer is capable of reducing the number of rows from 1270 to 580. It has been estimated, then, that the program is capable of performing roughly 80% of the work, which is no insignificant time-saver.
 
-######Instructions
+###### Instructions
 
   1. Prepare the excel file (N.B. See an Excel file titled "Example" in this repository for reference:
     
